@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" ){
     if ($conn->connect_error){
         die ("Connection Error: ".$conn->connect_error);
     }
-    
+
     $petOwnerID = $_GET['petOwnerID'];
     $petOwnerFName = $_POST['petOwnerFName'];
     $petOwnerLName = $_POST['petOwnerLName'];
@@ -35,9 +35,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" ){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Owners</title>
+    <link rel = "stylesheet" href = "../CSS/styles.css">
 </head>
 <body>
+    <div id = "navbar">
+        <ul>
+            <li><a href = "../dashboard.php">Home</a></li>
+            <li><a href = "../Owners/viewOwners.php">Owners</a></li>
+            <li><a href = "../Pets/viewPets.php">Pets</a></li>
+            <li><a href = "../Veterinarian/viewVets.php">Veterinarian</a></li>
+            <li><a href = "../Consultation/viewCons.php">Consultation</a></li>
+        </ul>
+    </div>
     <form action = "" method = "post">
+        <h1 style = "text-align: center;">Edit Owner</h1>
         <label for = "petOwnerFName">First Name: </label>
         <input type = "text" id = "petOwnerFName" name = "petOwnerFName" required><br><br>
 

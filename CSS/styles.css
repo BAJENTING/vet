@@ -58,3 +58,34 @@ table th{
 table tr{
     background-color: rgb(226, 219, 128);
 }
+
+form {
+    background-color: darkkhaki;
+    border-style: solid;
+    padding:20px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+}
+
+form label {
+    font-size: large;
+    font-weight: bolder;
+}
+form #saveBtn {
+    padding: 16px 32px;
+    border-style: none;
+    background-color: rgb(1, 209, 1);
+    font-weight: bold;
+    color: white;
+}
+
+form #canBtn {
+    padding: 16px 32px;
+    border-style: none;
+    background-color: rgb(189, 1, 1);
+    font-weight: bold;
+    color: white;
+}
