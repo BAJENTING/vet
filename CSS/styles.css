@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+#navbar {
+    background-color: darkkhaki;
+}
+#navbar ul{
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(124, 121, 69);
+}
+
+#addBtn {
+    margin: 10px;
+    padding: 5px 22px;
+    border-style: none;
+    background-color: rgb(1, 141, 1);
+    color: white;
+}
+
+#editBtn {
+    padding: 5px 22px;
+    margin: 2px;
+    border-style: none;
+    background-color: orange;
+    color: black;
+}
+#delBtn {
+    padding: 5px 22px;
+    margin: 2px;
+    border-style: none;
+    background-color: red;
+    color: black;
+}
+table {
+    text-align: center;
+}
+table th{
+    background-color: rgb(174, 168, 98);
+}
+table tr{
+    background-color: rgb(226, 219, 128);
+}
