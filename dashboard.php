@@ -14,6 +14,7 @@
             <li><a href = "Pets/viewPets.php">Pets</a></li>
             <li><a href = "Veterinarian/viewVets.php">Veterinarian</a></li>
             <li><a href = "Consultation/viewCons.php">Consultation</a></li>
+            <li><a href = "Inquiry/inquiries.php">Consultation Inquiry</a></li>
         </ul>
     </div>
     <h1 style = "text-align: center;">Welcome to JM's Clinic</h1>
